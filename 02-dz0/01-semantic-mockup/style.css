@@ -1,0 +1,56 @@
+* { 
+    color: white; 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+} 
+ 
+header { 
+    background-color: red; 
+    text-align: center; 
+    padding-top: 20px; 
+} 
+ 
+nav { 
+    background-color:chocolate; 
+    margin-top: 20px; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+} 
+ 
+main { 
+    background-color: green; 
+    padding: 20px 20px 30px; 
+} 
+ 
+main > article { 
+    background-color: blue; 
+    padding:30px 10px; 
+} 
+ 
+main > article ~ article{ 
+    margin-top: 10px; 
+} 
+ 
+article > h2 { 
+    padding-left: 10px; 
+} 
+ 
+article > ul, ol { 
+    padding-left: 30px; 
+    padding-top:20px; 
+    padding-bottom: 20px; 
+} 
+ 
+li { 
+    line-height: 30px; 
+} 
+ 
+footer { 
+    background-color: blueviolet; 
+    font-size: 40px; 
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+
